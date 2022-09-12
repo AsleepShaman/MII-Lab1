@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StaffWindow</class>
+ <widget class="QMainWindow" name="StaffWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Справочник сотрудников</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/icon/avatar-default-symbolic.symbolic.png</normaloff>:/icon/avatar-default-symbolic.symbolic.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="topMargin">
+         <number>3</number>
+        </property>
+        <property name="rightMargin">
+         <number>3</number>
+        </property>
+        <property name="bottomMargin">
+         <number>3</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_Org">
+            <property name="text">
+             <string>Организации</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_org">
+            <property name="contextMenuPolicy">
+             <enum>Qt::CustomContextMenu</enum>
+            </property>
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QToolButton" name="toolButton_AddOrg">
+              <property name="text">
+               <string>Добавить</string>
+              </property>
+              <property name="icon">
+               <iconset resource="icons.qrc">
+                <normaloff>:/icon/document-new-symbolic.symbolic.png</normaloff>:/icon/document-new-symbolic.symbolic.png</iconset>
+              </property>
+              <property name="popupMode">
+               <enum>QToolButton::MenuButtonPopup</enum>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextBesideIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_DelOrg">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="text">
+               <string>Удалить</string>
+              </property>
+              <property name="icon">
+               <iconset resource="icons.qrc">
+                <normaloff>:/icon/user-trash-symbolic.symbolic.png</normaloff>:/icon/user-trash-symbolic.symbolic.png</iconset>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextBesideIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_person">
+        <attribute name="title">
+         <string>Сотрудники</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QTableWidget" name="tableWidget_Personal">
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <property name="alternatingRowColors">
+              <bool>true</bool>
+             </property>
+             <property name="selectionMode">
+              <enum>QAbstractItemView::SingleSelection</enum>
+             </property>
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <row>
+              <property name="text">
+               <string/>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string/>
+              </property>
+             </row>
+             <column>
+              <property name="text">
+               <string>Табельный №</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>ФИО</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Пол</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Дата приема на работу</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Стаж</string>
+              </property>
+             </column>
+             <item row="0" column="0">
+              <property name="text">
+               <string>1111</string>
+              </property>
+             </item>
+             <item row="0" column="1">
+              <property name="text">
+               <string>Иванов</string>
+              </property>
+             </item>
+             <item row="0" column="2">
+              <property name="text">
+               <string>Иванович</string>
+              </property>
+             </item>
+             <item row="1" column="1">
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_AddPer">
+               <property name="text">
+                <string>Добавить</string>
+               </property>
+               <property name="icon">
+                <iconset resource="icons.qrc">
+                 <normaloff>:/icon/document-new-symbolic.symbolic.png</normaloff>:/icon/document-new-symbolic.symbolic.png</iconset>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextBesideIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_EditPer">
+               <property name="text">
+                <string>Редактировать</string>
+               </property>
+               <property name="icon">
+                <iconset resource="icons.qrc">
+                 <normaloff>:/icon/document-edit-symbolic.symbolic.png</normaloff>:/icon/document-edit-symbolic.symbolic.png</iconset>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextBesideIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_DelPer">
+               <property name="text">
+                <string>Удалить</string>
+               </property>
+               <property name="icon">
+                <iconset resource="icons.qrc">
+                 <normaloff>:/icon/user-trash-symbolic.symbolic.png</normaloff>:/icon/user-trash-symbolic.symbolic.png</iconset>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextBesideIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_holiday">
+        <attribute name="title">
+         <string>Отпуска</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QTableWidget" name="tableWidget_holiday">
+           <property name="selectionMode">
+            <enum>QAbstractItemView::SingleSelection</enum>
+           </property>
+           <column>
+            <property name="text">
+             <string>Табельный №</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>ФИО</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Подразделение</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Дата начала</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Продолжительность</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Дата окончания</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionCalc"/>
+   <addaction name="actionRap"/>
+   <addaction name="actionInfo"/>
+   <addaction name="actionDataBase"/>
+   <addaction name="actionFromDB"/>
+   <addaction name="actionExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/user-desktop-symbolic.symbolic.png</normaloff>:/icon/user-desktop-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/system-shutdown-symbolic.symbolic.png</normaloff>:/icon/system-shutdown-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/media-floppy-symbolic.symbolic.png</normaloff>:/icon/media-floppy-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionCalc">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/accessories-calculator-symbolic.symbolic.png</normaloff>:/icon/accessories-calculator-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Рассчитать</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionRap">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/accessories-text-editor-symbolic.symbolic.png</normaloff>:/icon/accessories-text-editor-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Отчет</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/user-invisible-symbolic.symbolic.png</normaloff>:/icon/user-invisible-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Справка</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionDataBase">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/insert-object-symbolic.symbolic.png</normaloff>:/icon/insert-object-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Загрузить в БД</string>
+   </property>
+   <property name="toolTip">
+    <string>Загрузить в БД</string>
+   </property>
+  </action>
+  <action name="actionFromDB">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icon/network-wired-symbolic.symbolic.png</normaloff>:/icon/network-wired-symbolic.symbolic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Загрузить из БД</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

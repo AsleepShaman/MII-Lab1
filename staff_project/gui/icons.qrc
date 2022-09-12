@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/accessories-calculator-symbolic.symbolic.png</file>
+        <file>icon/accessories-text-editor-symbolic.symbolic.png</file>
+        <file>icon/emblem-important-symbolic.symbolic.png</file>
+        <file>icon/media-floppy-symbolic.symbolic.png</file>
+        <file>icon/network-wireless-no-route-symbolic.symbolic.png</file>
+        <file>icon/system-shutdown-symbolic.symbolic.png</file>
+        <file>icon/user-desktop-symbolic.symbolic.png</file>
+        <file>icon/user-invisible-symbolic.symbolic.png</file>
+        <file>icon/user-trash-symbolic.symbolic.png</file>
+        <file>icon/list-remove-symbolic.symbolic.png</file>
+        <file>icon/list-add-symbolic.symbolic.png</file>
+        <file>icon/document-new-symbolic.symbolic.png</file>
+        <file>icon/document-edit-symbolic.symbolic.png</file>
+        <file>icon/system-users-symbolic.symbolic.png</file>
+        <file>icon/contact-new-symbolic.symbolic.png</file>
+        <file>icon/avatar-default-symbolic.symbolic.png</file>
+        <file>icon/network-wired-symbolic.symbolic.png</file>
+        <file>icon/emblem-shared-symbolic.symbolic.png</file>
+        <file>icon/insert-object-symbolic.symbolic.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Staff">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Organization" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Person" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Tab_ID" type="xs:string"/>
+										<xs:element name="Surname" type="xs:string"/>
+										<xs:element name="Name" type="xs:string"/>
+										<xs:element name="Patronymic" type="xs:string"/>
+										<xs:element name="Subdivizion" type="xs:string"/>
+										<xs:element name="Sex" type="xs:string"/>
+										<xs:element name="Emp_date" type="xs:date"/>
+									</xs:sequence>
+									<xs:attribute name="UUID" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="Name" type="xs:string" use="required" form="qualified"/>
+						<xs:attribute name="UUID" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

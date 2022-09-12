@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Holidays>
+   <Person UUID="{f5f9c285-8461-495d-8a60-4901445fd5c5}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>12</Duration>
+   </Person>
+   <Person UUID="{744ff62e-8947-4d38-bbca-2766959f924d}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>14</Duration>
+   </Person>
+   <Person UUID="{dddc74f1-e4e5-43f7-a319-8ffbc8c49c1c}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>24</Duration>
+   </Person>
+   <Person UUID="{73d6fdd8-7320-4709-8670-bcd82ad6cb39}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>8</Duration>
+   </Person>
+   <Person UUID="{3c2c6fe8-3792-482e-8a2b-14ffcf91dbd8}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>26</Duration>
+   </Person>
+   <Person UUID="{6b951ee3-cf28-45ad-9616-2c66aed9209d}">
+      <Begin_Date>13.07.2022</Begin_Date>
+      <Duration>18</Duration>
+   </Person>
+</Holidays>

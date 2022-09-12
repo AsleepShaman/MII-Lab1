@@ -1,0 +1,127 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Staff>
+   <Organization UUID="{0449eac9-216e-40fc-8d30-1a31f8f00aee}" Name="Mile a minute">
+      <Subdivizion UUID="{023db93a-2e9c-4611-a65d-c76602452dd9}" Name="лдлдлд">
+         <Person UUID="{a19a765b-84b8-4e7d-9dec-94bb2355481d}">
+            <Tab_ID>33434</Tab_ID>
+            <Surname>ророр</Surname>
+            <Name>ороро</Name>
+            <Patronymic>роро</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>2000-01-01</Emp_date>
+         </Person>
+      </Subdivizion>
+      <Subdivizion UUID="{3a98c821-b656-4b97-bee0-bee91822b6af}" Name="Отдел-2">
+         <Person UUID="{3c2c6fe8-3792-482e-8a2b-14ffcf91dbd8}">
+            <Tab_ID>888888</Tab_ID>
+            <Surname>Петров</Surname>
+            <Name>Олег</Name>
+            <Patronymic>Иванович</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>1999-04-20</Emp_date>
+         </Person>
+         <Person UUID="{6b951ee3-cf28-45ad-9616-2c66aed9209d}">
+            <Tab_ID>999999</Tab_ID>
+            <Surname>Иванова</Surname>
+            <Name>Ирина</Name>
+            <Patronymic>Петровна</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>2014-09-16</Emp_date>
+         </Person>
+      </Subdivizion>
+      <Subdivizion UUID="{5d271340-0a11-4846-a92c-0f34be191215}" Name="Отдел-3">
+         <Person UUID="{9b147d46-c86b-487d-95fe-1cce69e5421d}">
+            <Tab_ID>131313</Tab_ID>
+            <Surname>прпрпр</Surname>
+            <Name>прпрпр</Name>
+            <Patronymic>прпрпр</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>2000-01-01</Emp_date>
+            <Holidays>
+               <Begin_Date>12.08.2022</Begin_Date>
+               <Duration>4</Duration>
+               <End_Date>16.08.2022</End_Date>
+            </Holidays>
+         </Person>
+         <Person UUID="{dddc74f1-e4e5-43f7-a319-8ffbc8c49c1c}">
+            <Tab_ID>666666</Tab_ID>
+            <Surname>Волкова</Surname>
+            <Name>Ирина</Name>
+            <Patronymic>Алексеевна</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>2019-12-14</Emp_date>
+         </Person>
+         <Person UUID="{f5f9c285-8461-495d-8a60-4901445fd5c5}">
+            <Tab_ID>121212</Tab_ID>
+            <Surname>Сидорова</Surname>
+            <Name>Мария</Name>
+            <Patronymic>Александровна</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>1997-08-13</Emp_date>
+            <Holidays>
+               <Begin_Date>12.08.2022</Begin_Date>
+               <Duration>12</Duration>
+               <End_Date>24.08.2022</End_Date>
+            </Holidays>
+         </Person>
+      </Subdivizion>
+      <Subdivizion UUID="{707a677a-2210-4653-934c-e0d264e8a8f1}" Name="Отдел-1">
+         <Person UUID="{73d6fdd8-7320-4709-8670-bcd82ad6cb39}">
+            <Tab_ID>777777</Tab_ID>
+            <Surname>Разумовская</Surname>
+            <Name>Катерина</Name>
+            <Patronymic>Андреевна</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>2004-07-13</Emp_date>
+         </Person>
+         <Person UUID="{744ff62e-8947-4d38-bbca-2766959f924d}">
+            <Tab_ID>555555</Tab_ID>
+            <Surname>Позин</Surname>
+            <Name>Станислав</Name>
+            <Patronymic>Петрович</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>2020-10-24</Emp_date>
+         </Person>
+      </Subdivizion>
+   </Organization>
+   <Organization UUID="{1134c2c7-6bd2-4055-a79d-b9e79bd5cdae}" Name="Augsburger">
+      <Subdivizion UUID="{03cc9910-f1ed-4ec2-926f-a52a536a1a11}" Name="Отдел-5">
+         <Person UUID="{dbb78052-801e-45a5-806c-dbdcaec51ee7}">
+            <Tab_ID>333333</Tab_ID>
+            <Surname>Сидоров</Surname>
+            <Name>Андрей</Name>
+            <Patronymic>Андреевич</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>2006-09-13</Emp_date>
+         </Person>
+      </Subdivizion>
+      <Subdivizion UUID="{26c071f6-0c40-4a44-84ef-b6407535b31a}" Name="Отдел-4">
+         <Person UUID="{3a68c74e-c44d-4f40-bc85-9d3eeea76d91}">
+            <Tab_ID>222222</Tab_ID>
+            <Surname>Петрова</Surname>
+            <Name>Анна</Name>
+            <Patronymic>Сергеевна</Patronymic>
+            <Sex>ж</Sex>
+            <Emp_date>2017-03-26</Emp_date>
+         </Person>
+         <Person UUID="{e42185cb-2bad-4127-9e49-2977fff4d7a3}">
+            <Tab_ID>111111</Tab_ID>
+            <Surname>Иванов</Surname>
+            <Name>Иван</Name>
+            <Patronymic>Иванович</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>2012-02-03</Emp_date>
+         </Person>
+      </Subdivizion>
+      <Subdivizion UUID="{80e88312-f6ae-456a-a63a-b506a82bbdb7}" Name="Отдел-6">
+         <Person UUID="{97e34258-93e5-4fba-bacc-85b4b7d8efed}">
+            <Tab_ID>444444</Tab_ID>
+            <Surname>Сергеев</Surname>
+            <Name>Михаил</Name>
+            <Patronymic>Викторович</Patronymic>
+            <Sex>м</Sex>
+            <Emp_date>2010-08-30</Emp_date>
+         </Person>
+      </Subdivizion>
+   </Organization>
+</Staff>
